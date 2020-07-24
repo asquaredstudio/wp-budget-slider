@@ -27,7 +27,7 @@
       slider.trigger('input');
 
       // fix budget width
-      item_width = (100 / me.attr('data-number-sections') - .9);
+      item_width = (100 / me.attr('data-number-sections'));
       $('.budgets ul li').attr('style', 'width: ' + item_width + '%');
 
     });

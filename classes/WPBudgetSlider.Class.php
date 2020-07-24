@@ -38,7 +38,7 @@ class WPBudgetSlider {
 		$this->pluginURL           = plugin_dir_url(__DIR__);
 		$this->pluginName          = "WP Budget Slider";
 		$this->pluginSlug          = "wp_budget_slider";
-		$this->pluginVersion       = '0.1';
+		$this->pluginVersion       = '0.2';
 		$this->cptName             = 'budget_slider';
 		$this->pluginVersionOption = $this->pluginSlug . '_version';
 
